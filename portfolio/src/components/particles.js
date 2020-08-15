@@ -1,7 +1,8 @@
 import React from 'react';
-import Particles from 'react-particles-js';
+import Particles, { RotateDirection } from 'react-particles-js';
 import Logo from '../svg/ReactLogo.svg';
 import NodeJs from '../svg/NodeJS.svg';
+import { Spinner } from 'react-bootstrap';
 
 export default function BackgroundParts() {
   const particleOptions = {
@@ -51,6 +52,7 @@ export default function BackgroundParts() {
           speed: 4,
           size_min: 10,
           sync: false,
+          transform: Spinner,
         },
       },
     },
