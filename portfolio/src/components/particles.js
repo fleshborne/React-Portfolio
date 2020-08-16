@@ -52,7 +52,6 @@ export default function BackgroundParts() {
           speed: 4,
           size_min: 10,
           sync: false,
-          transform: Spinner,
         },
       },
     },
