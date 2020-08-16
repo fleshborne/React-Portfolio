@@ -21,6 +21,10 @@ body {
   /* more styles */
 }
 
+.technologies {
+  size: 50px;
+}
+
 .profilePic {
   /* display: inline-block; */
   width: 125px;

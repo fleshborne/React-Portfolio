@@ -4,6 +4,7 @@ import BackgroundParts from './components/particles';
 import NavBar from './components/NavBar';
 import Layout from './components/Layout';
 import AboutMe from './components/aboutMe';
+import Technologies from './components/Technologies';
 
 export default function App() {
   return (
@@ -12,6 +13,9 @@ export default function App() {
       <NavBar />
       <Layout>
         <AboutMe />
+      </Layout>
+      <Layout>
+        <Technologies />
       </Layout>
     </div>
   );
