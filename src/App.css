@@ -46,6 +46,7 @@ body {
   box-shadow: 10vh;
   padding-bottom: 10px;
   padding-top: 10px;
+  position: relative;
 }
 
 .particles {
