@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Layout from './components/Layout';
 import AboutMe from './components/aboutMe';
 import Technologies from './components/Technologies';
+import Projects from './components/Projects';
 
 export default function App() {
   return (
@@ -16,6 +17,9 @@ export default function App() {
       </Layout>
       <Layout>
         <Technologies />
+      </Layout>
+      <Layout>
+        <Projects />
       </Layout>
     </div>
   );

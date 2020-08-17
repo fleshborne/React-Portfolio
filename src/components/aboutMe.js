@@ -6,13 +6,11 @@ export default function AboutMe() {
   return (
     <div>
       <img src={ProfilePic} alt='headshot' className='profilePic' />
-      <Card className='bg-dark text-white cardStyles '>
+      <Card className='bg-dark text-white cardStyles ' href='#About'>
         {/* <Card.Title className='ml-4'>Hello World, Blake here!</Card.Title> */}
         {/* </Card>
       <Card className='bg-dark text-white cardStyles'> */}
-        <Card.Title className='ml-4' href='#About'>
-          About Me
-        </Card.Title>
+        <Card.Title className='ml-4'>About Me</Card.Title>
         <Card.Text className='ml-2'>
           My name is Blake Thompson, I'm a Certified Full-Stack Developer from
           the University of New Hampshire. Learning new technologies and
