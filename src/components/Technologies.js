@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap/';
-import CodingTech from '../assets/images/coding_tech.jpg';
+import CodingTech from '../assets/images/coding_tech_800w.jpg';
 export default function () {
   return (
     <div>
